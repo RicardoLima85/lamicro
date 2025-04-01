@@ -12,6 +12,11 @@ const App = () => {
       <img src={logo} alt="Logo" />
 
       <Button onClick={() => window.open(website)}>Resultados de exames</Button>
+
+      <div className="contact-info">
+        <p>Endereço: Av. Frei Benjamin, 1620 - Brasil, Vitória da Conquista - BA, 45051-440</p>
+        <p>Telefone: (77) 98155-3591</p>
+      </div>
     </div>
   );
 };
