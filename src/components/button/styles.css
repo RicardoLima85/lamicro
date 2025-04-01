@@ -1,0 +1,23 @@
+button {
+  background: var(--primary-color);
+  padding: 12px 20px;
+  width: fit-content;
+  height: 40px;
+  outline: none;
+  border: 1px solid transparent;
+  font-family: var(--font-family);
+  border-radius: 8px;
+  letter-spacing: 0.9px;
+  color: var(--text-color);
+
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--secondary-color);
+}
+
+button:focus {
+  border-color: var(--text-color);
+}
