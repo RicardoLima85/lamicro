@@ -5,7 +5,7 @@ import "./app.css";
 import logo from "./assets/images/logo.jpg";
 
 const App = () => {
-  const website = "http://lamicro.ddns.net:8181/web_laudos/login.asp";
+  const website = "http://lamicro.ddns.net:8182/web_laudos/login.asp";
 
   return (
     <div className="wrapper">
